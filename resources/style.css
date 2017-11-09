@@ -3,15 +3,83 @@ html {
   font-size: 18px;
 }
 
-#mbike{
+/*Top section of the site*/
+
+.mbike {
   width: 960px;
   height: 30rem;
   border: red solid 0.1rem;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-image: url(moto.jpeg);
 }
 
-#topbar{
+#logo {
+  border: red solid 0.1rem;
+}
+
+.topbar{
   color: white;
   background-color: black;
+  border: red solid 0.1rem;
+  flex-grow: 1;
+  text-align: center;
+}
+
+#menu {
+  color: white;
+  background-color: firebrick;
+  border: red solid 0.1rem;
+
+}
+
+#menu span {
+  display: inline-block;
+  border: red solid 0.1rem;
+}
+
+#newar {
+  border: red solid 0.1rem;
+  background-color: black;
+  color: white;
+  width: 20rem;
+  height: 9rem;
+}
+/*Centre and shop section*/
+
+.shop{
+  border: red solid 0.1rem;
+}
+
+.shop p {
+  background-color: black;
+  color: white
+}
+
+#pen {
+  border: red solid 0.1rem;
+  background-image: url(./pen.png);
+  height: 15rem;
+  width: 35%;
+}
+
+#watch {
+  border: red solid 0.1rem;
+  background-image: url(./watch.png);
+  height: 15rem;
+  width: 35%;
+}
+
+#glasses{
+  border: red solid 0.1rem;
+  background-image: url(./glasses.png);
+  height: 15rem;
+  width: 35%;
+
+}
+
+.locate {
+  border: red solid 0.1rem;
+}
+
+.foot {
   border: red solid 0.1rem;
 }
