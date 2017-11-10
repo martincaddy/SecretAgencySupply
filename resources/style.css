@@ -8,6 +8,7 @@ body {
 .site{
   border: solid red 2px;
   width: 960px;
+  justify-content: center;
   /*display: flex;*/
 }
 
