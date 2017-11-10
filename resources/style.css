@@ -13,6 +13,7 @@ body {
   background-repeat: no-repeat;
   width: 960px;
   height: 30rem;
+  margin-left: 8.5rem;
   border: red solid 0.1rem;
 }
 
@@ -65,10 +66,10 @@ body {
   border: red solid 0.1rem;
 }
 
-.shop p {
+/*.shop p {
   background-color: black;
   color: white
-}
+}*/
 
 #pen {
   border: red solid 0.1rem;
@@ -76,6 +77,9 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 9rem;
+  height: 14rem;
+  width: 14rem;
 }
 
 #watch {
@@ -84,14 +88,31 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 9rem;
+  height: 14rem;
+  width: 14rem;
 }
 
 #glasses{
+  /*display: flex;*/
   border: red solid 0.1rem;
   background-image: url(./glasses.png);
   background-size: contain;
   background-position: center;
+  background-size: 9rem;
   background-repeat: no-repeat;
+  height: 14rem;
+  width: 14rem;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border: red solid 0.1rem;
+  background-color: black;
+  color: white
+  /*align-content: flex-end;*/
 }
 
 .locate {
