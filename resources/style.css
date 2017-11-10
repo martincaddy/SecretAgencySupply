@@ -174,12 +174,16 @@ body {
     display: none;
   }
 
+  #pen, #watch {
+    width: 47%;
+  }
+
   #t3 {
     display: none;
   }
 
   #t1, #t2 {
-    width: 34.5%;
+    width: 47.75%;
   }
 
 }
