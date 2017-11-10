@@ -1,7 +1,14 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
+  margin: 0;
   /*border: solid red 0.1rem;*/
+}
+
+.site{
+  border: solid red 2px;
+  width: 960px;
+  /*display: flex;*/
 }
 
 /*Top section of the site*/
@@ -14,7 +21,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 40rem;
-  border: red solid 0.1rem;
+  /*border: red solid 0.1rem;*/
 }
 
 .topbar{
@@ -127,6 +134,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 4rem;
   /*border: red solid 0.1rem;*/
 }
 
@@ -147,8 +155,12 @@ body {
 
 .foot {
   /*border: red solid 0.1rem;*/
-  height: 5rem;
+  height: 10rem;
   background-color: black;
   color: white;
   text-align: left;
+}
+
+.foot p {
+
 }
