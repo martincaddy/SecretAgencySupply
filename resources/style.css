@@ -65,39 +65,26 @@ body {
   border: red solid 0.1rem;
 }
 
+.shppic {
+    border: red solid 0.1rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 9rem;
+    height: 14rem;
+    width: 14rem;
+}
+
 #pen {
-  border: red solid 0.1rem;
   background-image: url(./pen.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 9rem;
-  height: 14rem;
-  width: 14rem;
 }
 
 #watch {
-  border: red solid 0.1rem;
   background-image: url(./watch.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 9rem;
-  height: 14rem;
-  width: 14rem;
 }
 
 #glasses{
-  display: flex;
-  align-items: baseline;
-  border: red solid 0.1rem;
   background-image: url(./glasses.png);
-  background-size: contain;
-  background-position: center;
-  background-size: 9rem;
-  background-repeat: no-repeat;
-  height: 14rem;
-  width: 14rem;
 }
 
 .text{
