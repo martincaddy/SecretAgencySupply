@@ -2,15 +2,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
   margin: 0;
-  /*border: solid red 0.1rem;*/
 }
-
-/*.site{
-  border: solid red 2px;
-  width: 960px;
-  /*justify-content: center;*/
-  /*display: flex;*/
-/*}*/
 
 /*Top section of the site*/
 
@@ -85,7 +77,6 @@ body {
   flex-direction: row;
   justify-content: space-around;
   margin-top: 3rem;
-  /*border: red solid 0.1rem;*/
 }
 
 /*styling for pictures of shop items*/
@@ -198,12 +189,16 @@ body {
       display: none;
     }
 
+    #pen {
+      width: 90%;
+    }
+
     #t2 {
       display: none;
     }
 
     #t1 {
-      width: 51%;
+      width: 91.5%;
     }
 
     .locate {
@@ -218,6 +213,21 @@ body {
       padding-left: 2rem;
       color: white;
       background-color: black;
+    }
+
+    #newar {
+      margin-bottom: 0.5rem;
+    }
+
+    #newar h4 {
+      margin-left: 2rem;
+      margin-top: 1rem;
+      font-size: 0.77rem;
+    }
+
+    #newar h2 {
+      margin-left: 2rem;
+      font-size: 1rem;
     }
 
   }
