@@ -104,6 +104,8 @@ body {
   width: 18.2%;
 }
 
+/*location and hours info*/
+
 .locate {
   display: flex;
   flex-direction: row;
@@ -123,6 +125,8 @@ body {
   color: white;
   background-color: black;
 }
+
+/*site footer*/
 
 .foot {
   border: red solid 0.1rem;
