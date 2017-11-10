@@ -5,11 +5,12 @@ body {
   /*border: solid red 0.1rem;*/
 }
 
-.site{
+/*.site{
   border: solid red 2px;
   width: 960px;
+  /*justify-content: center;*/
   /*display: flex;*/
-}
+/*}*/
 
 /*Top section of the site*/
 
